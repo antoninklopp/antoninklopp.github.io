@@ -4,6 +4,30 @@
     
     <url>
     
+      <loc>https://antoninklopp.github.io/project/image_synthesis_animation/</loc>
+      <lastmod>2019-01-12T15:17:17+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://antoninklopp.github.io/project/image_processing/</loc>
+      <lastmod>2019-01-12T15:17:17+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://antoninklopp.github.io/project/antinomia/</loc>
+      <lastmod>2019-01-12T15:05:31+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://antoninklopp.github.io/post/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
@@ -28,6 +52,15 @@
     
     <url>
     
+      <loc>https://antoninklopp.github.io/tags/3d/</loc>
+      <lastmod>2019-01-12T15:17:17+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://antoninklopp.github.io/categories/</loc>
       <priority>0</priority>
     </url>
@@ -45,6 +78,15 @@
     
     <url>
     
+      <loc>https://antoninklopp.github.io/project/</loc>
+      <lastmod>2019-01-12T15:17:17+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://antoninklopp.github.io/publication_types/</loc>
       <priority>0</priority>
     </url>
@@ -54,6 +96,25 @@
     <url>
     
       <loc>https://antoninklopp.github.io/tags/</loc>
+      <lastmod>2019-01-12T15:17:17+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://antoninklopp.github.io/tags/animation/</loc>
+      <lastmod>2019-01-12T15:17:17+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://antoninklopp.github.io/tags/rendering/</loc>
+      <lastmod>2019-01-12T15:17:17+01:00</lastmod>
       <priority>0</priority>
     </url>
     

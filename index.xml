@@ -10,5 +10,67 @@
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Image Sythesis and animation</title>
+      <link>https://antoninklopp.github.io/project/image_synthesis_animation/</link>
+      <pubDate>Sat, 12 Jan 2019 15:17:17 +0100</pubDate>
+      
+      <guid>https://antoninklopp.github.io/project/image_synthesis_animation/</guid>
+      <description>&lt;p&gt;In this three-person project we created :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A rendering process using advanced techniques such as :&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Ray-tracing&lt;/li&gt;
+&lt;li&gt;Shadow mapping&lt;/li&gt;
+&lt;li&gt;Alterative rendering (refining render to create a first render faster)&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Animation rendering. We could load a bvh model and use its data
+to animate a skeleton, rendered by our previously created rendering model.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Image processing</title>
+      <link>https://antoninklopp.github.io/project/image_processing/</link>
+      <pubDate>Sat, 12 Jan 2019 15:17:17 +0100</pubDate>
+      
+      <guid>https://antoninklopp.github.io/project/image_processing/</guid>
+      <description>&lt;p&gt;In this two-person project, we created different filters for edge finding,
+denoising and filtering, like :
+- Gaussian filter
+- Median filter
+- Adaptative filters (like bilateral filter)&lt;/p&gt;
+
+&lt;p&gt;We used the Laplacian of Gaussian filter to detect edges.&lt;/p&gt;
+
+&lt;p&gt;We compared the different performances, accuracy and algorithm speed of each
+technique, presenting advantages and disadvantages of using them.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Antinomia</title>
+      <link>https://antoninklopp.github.io/project/antinomia/</link>
+      <pubDate>Sat, 12 Jan 2019 15:05:31 +0100</pubDate>
+      
+      <guid>https://antoninklopp.github.io/project/antinomia/</guid>
+      <description>&lt;p&gt;Antinomia was a project created by three students, about a fantasy world.&lt;br /&gt;
+I joined the team to create the online video game.&lt;/p&gt;
+
+&lt;p&gt;At the end of the project, even if it was not released, we had a
+fully playable online game between two players, with actions like spells, attacks or
+special abilities from each character.&lt;/p&gt;
+
+&lt;p&gt;The game was created using the Unity game engine and entirely programmed in C#.&lt;br /&gt;
+The data were stored online on the gamesparks platform allowing updates on the server side
+and multi-device possibility for each player with one account.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
