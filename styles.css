@@ -501,52 +501,6 @@ a[data-fancybox] img {
   animation-delay: 0.15s;
 }
 
-/* Override dark colors that may be inherited from body.dark */
-.home-section.dark,
-.home-section.dark h1,
-.home-section.dark h2,
-.home-section.dark h3,
-.home-section.dark a:not(.btn) {
-  color: rgb(248, 248, 242);
-}
-
-/* Underline links in dark sections to separate them from text */
-.home-section.dark a:not(.btn):not(.hero-cta-alt) {
-  text-decoration: underline;
-}
-
-/* Revert Alert Box Link style (.home-section.dark style above should not be applied to it) */
-.home-section.dark .alert a {
-  color: inherit !important;
-  text-decoration: inherit !important;
-}
-
-/* Big underline style for links in dark sections */
-/* Disabled as it's an experimental style that requires CSS NOT Selector Level 4 (only in Safari) */
-/*
-.home-section.dark.big-underline a:not(.btn):not(.hero-cta-alt):not(.alert a) {
-  text-decoration: none;
-  position: relative;
-}
-.home-section.dark.big-underline a:not(.btn):not(.hero-cta-alt):not(.alert a):after {
-  background: #fff;
-  content: "";
-  height: 2px;
-  left: 0;
-  right: 0;
-  position: absolute;
-  top: 100%;
-}*/
-
-/* Create the parallax scrolling effect */
-.parallax {
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .home-section:first-of-type {
   padding-top: 50px;
 }
@@ -595,7 +549,7 @@ a[data-fancybox] img {
  *  Hero Widget
  **************************************************/
 
-.wg-hero {
+.hero-overlay {
   padding: 3em 0;
   clear: both;
   background-size: cover;
@@ -617,63 +571,24 @@ a[data-fancybox] img {
   font-size: 1.35rem;
 }
 
-.wg-hero.dark .hero-title,
-.wg-hero.dark .hero-lead,
-.wg-hero.dark .hero-cta-alt,
-.wg-hero.dark .hero-note > * {
+.hero-overlay .hero-title,
+.hero-overlay .hero-lead,
+.hero-overlay .btn {
   color: #fff;
-  /*text-shadow: 1px 1px 4px rgba(0,0,0,0.5);*/ /* Uncomment to standout on complicated backgrounds. */
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }
 
-.wg-hero.dark a:not(.wg-hero .btn) {
+.hero-overlay a {
   color: #fff;
 }
 
-.wg-hero .hero-lead a {
-  text-decoration: underline;
+.hero-overlay .hero-lead a {
+  color: #fff;
+  text-decoration-line: underline;
 }
 
-.wg-hero .cta-btns {
-  margin-bottom: 16px;
-}
-
-.wg-hero .btn {
-  padding: .6em 2.1em;
-}
-
-.wg-hero.dark .btn {
-  color: #0039cb;
-}
-
-a.hero-cta-alt {
-  display: inline-block;
-  position: relative;
-  transition-duration: .2s;
-  transition-property: transform;
-  transition-timing-function: ease-out;
+.hero-overlay .btn-lg {
   font-size: 1.1rem;
-}
-
-a.hero-cta-alt:active,
-a.hero-cta-alt:focus,
-a.hero-cta-alt:hover {
-  transform: scale(1.1);
-}
-
-.wg-hero .btn-lg {
-  font-size: 1.1rem;
-}
-
-.wg-hero .hero-note {
-  font-size: 0.8rem;
-}
-
-.hero-media {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  text-align: center;
 }
 
 /*************************************************
@@ -1106,13 +1021,11 @@ article .article-metadata {
   margin-bottom: 2rem;
 }
 
-.media.stream-item .article-title,
-.card-simple .article-title {
+.media.stream-item .article-title {
   font-size: 1.2rem;
 }
 
-.media.stream-item .article-style,
-.card-simple .article-style {
+.media.stream-item .article-style {
   margin-top: 2px;
   font-size: 0.8rem;
 }
@@ -1243,19 +1156,6 @@ article .article-metadata {
   overflow: hidden;
 }
 
-.li-cite-author {
-  font-size: 1em;
-  color: inherit;
-}
-
-.li-cite-author a {
-  color: inherit;
-}
-
-.dark .li-cite-author a {
-  color: rgb(248, 248, 242);
-}
-
 /*************************************************
  * Experience
  **************************************************/
@@ -1343,31 +1243,8 @@ article .article-metadata {
   margin-bottom: 2rem;
 }
 
-.project-card {
-  position: relative;
-  width: calc(33.3% - 2*20px); /* Fluid 3 columns (inc. 20px gutter) */
-}
-@media screen and (max-width: 1199px) {
-  .project-card {
-    width: calc(50% - 20px); /* Fluid 2 columns (inc. 20px gutter) */
-  }
-}
-@media screen and (max-width: 768px) {
-  .project-card {
-    width: 100%; /* 1 column */
-  }
-}
-
 .project-item {
   margin-bottom: 1.5rem;
-}
-
-.project-card.project-item {
-  margin: 0 0 20px 0; /* Set to Isotope's gutter size */
-}
-
-.project-card .card {
-  margin: 0; /* Remove default card margin and use Isotope gutter */
 }
 
 .project-showcase .project-item {
@@ -1390,19 +1267,22 @@ article .article-metadata {
  *  Accomplishments
  **************************************************/
  
-.card.course {
-  margin-bottom: 1rem; /* More compact spacing than Experience widget as typically more items here. */
+.course {
+  margin-bottom: -0.5rem;
 }
 
-.card.course:last-of-type {
-  margin-bottom: 0;
+.course h6 {
+  font-size: 0.80rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
 }
 
-.course .card-subtitle a {
+.course h6 a {
   border-bottom: solid 1px transparent;
 }
 
-.course .card-subtitle a:hover {
+.course h6 a:hover {
   border-bottom: solid 1px;
   text-decoration: none;
 }
