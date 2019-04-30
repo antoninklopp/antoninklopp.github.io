@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video Games on Portfolio</title>
+    <link>https://antoninklopp.github.io/tags/video-games/</link>
+    <description>Recent content in Video Games on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sat, 12 Jan 2019 15:05:31 +0100</lastBuildDate>
+    
+	<atom:link href="https://antoninklopp.github.io/tags/video-games/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Antinomia</title>
+      <link>https://antoninklopp.github.io/project/antinomia/</link>
+      <pubDate>Sat, 12 Jan 2019 15:05:31 +0100</pubDate>
+      
+      <guid>https://antoninklopp.github.io/project/antinomia/</guid>
+      <description>Antinomia was a project created by three students, about a fantasy world.
+I joined the team to create the online video game.
+At the end of the project, even if it was not released, we had a fully playable online game between two players, with actions like spells, attacks or special abilities from each character.
+The game was created using the Unity game engine and entirely programmed in C#.
+The data were stored online on the gamesparks platform allowing updates on the server side and multi-device possibility for each player with one account.</description>
+    </item>
+    
+  </channel>
+</rss>
